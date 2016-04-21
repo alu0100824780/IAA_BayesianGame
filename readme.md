@@ -1,11 +1,10 @@
-
 # IAA Bayesian Bot
-Calcula el comportamiento de un bot (_estado_) en función de la información obtenida del entorno y de sus estado anterior.
+Calcula el comportamiento de un bot (_estado_) en función de la información obtenida del entorno y de sus estado anterior. Una vez calculado el primer st+1, permite modificar el entorno para evaluar la evolución de su comportamiento durante un intervalo de tiempo infinito. 
 
-Una vez calculado el primer st+1, permite modificar el entorno para evaluar la evolución de su comportamiento. 
+![salida del programa](./pics/pic1.png)
 
 ## Compilar 
-    g++ *.cpp -std=c++11 -O3 -o IAA_BOT
+    g++ src/*.cpp -std=c++11 -O3 -o IAA_BOT
 
 ## Ejecutar 
     ./IAA_BOT
@@ -41,3 +40,9 @@ Dónde prob_X_Y corresponde a la probabilidad de pasar al estado Y estando en el
 Dónde prob_A_B corresponde a la probabilidad de pasar al estado A al tener el sensor el calor B
 
 **La suma de todos los elementos de una fila debe ser 1**
+
+---
+
+**Autores:**
+*Rudolf Cicko*
+*Daniel Darias Sánchez*

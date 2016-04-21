@@ -43,6 +43,6 @@ Dónde prob_A_B corresponde a la probabilidad de pasar al estado A al tener el s
 
 ---
 
-**Autores:**
-*Rudolf Cicko*
+**Autores:**  
+*Rudolf Cicko*  
 *Daniel Darias Sánchez*
